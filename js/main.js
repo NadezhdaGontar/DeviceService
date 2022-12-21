@@ -5,46 +5,15 @@ $(function(){
     autoplay: true,
     autoplaySpeed: 2000,
   })
-/*
-  $('.menu__btn').click(function(event){
-  $('.menu__btn, .nav').toggleClass('active');
-
-$('body').toggleClass('lock')
-});
- $(".menu a").on("click", function (e) {
-		//отменяем стандартную обработку нажатия по ссылке
-		e.preventDefault();
-
-		//забираем идентификатор блока с атрибута href
-		var id  = $(this).attr('href'),
-
-		//узнаем высоту от начала страницы до блока на который ссылается якорь
-			top = $(id).offset().top;
-		
-		//анимируем переход на расстояние - top за 1500 мс
-		$('body,html').animate({scrollTop: top}, 4000);
-	});
-
-*/
-
-
-
-
-
-	// 1. Скрыть все content box
-        contentBoxes.forEach(function (item) {
+// 1. Скрыть все content box
+      contentBoxes.forEach(function (item) {
         item.classList.add('hidden');
-        
-
-      });
-      // 2. Выбрать нужный content box и показать его
+    });
+// 2. Выбрать нужный content box и показать его
         
         const contentBox = document.querySelector('#' + this.dataset.tab);
         contentBox.classList.remove('hidden');
     });     
-
-
-
 
 const headers = document.querySelectorAll("[data-name='accordeon-title']");
 
@@ -55,10 +24,6 @@ headers.forEach(function (item) {
 function showContent() {
     this.nextElementSibling.classList.toggle('hidden');
 }
-/*новый вариант бургер меню*/
-
-
-
 function burgerMenu(selector) {
   let menu =  $(selector);
   let button = menu.find('.header__menu-btn');/*передаем кнопку*/
@@ -71,7 +36,6 @@ function burgerMenu(selector) {
   });
   links.on('click', () => toggleMenu());
  
-
   function toggleMenu(){
     menu.toggleClass('active');/*класс, который добавляется чтобы работало меню*/
 
