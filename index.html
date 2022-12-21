@@ -5,163 +5,183 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Device Service</title>
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
  <header class="header">
   <div class="container">
     <div class="header__inner">
-    <div class="logo">
-      <a href="#">
-        <img src="images/logo.jpg" alt="Logo" class="header__logo">
-      </a>
+      <div class="logo">
+        <a class="header__logo" href="#">
+          <img src="images/logo.png" alt="Logo" class="header__logo-img" >
+        </a>
+      </div>
+    <div class="header__menu-inner">
+      <button href="#" class="header__menu-btn">
+        <span></span>
+      </button>
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+              <a class="header__menu-link header__menu-link--active" href="#about">
+                 О нас
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#services">
+                Услуги
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#faqs">
+                FAQ
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#map">
+                Как нас найти
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#footer">
+                Контакты
+              </a>
+            </li>
+        </ul>
     </div>
-    <div class="menu__btn">
-      <span></span>
-    </div>
-    <nav class="nav">
-         <ul class="nav__items">
-        <li class="nav__item"  >
-          <a href="#main">
-          Главная
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#descripton">
-          О нас
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#services">
-          Услуги
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#map">
-          Как нас найти
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#footer">
-          Контакты
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+ </div>
  </div>
 </header>
-
-<section class="main" id="main">
+<main>
+<section class="about" id="about">
   <div class="container">
- <div class="main__inner"> 
-<img src="images/main_image.jpg" alt="Image" class="main__img">
-  <div class="main__text">  
-  <h1 class="title main__title">
-    Главная
-  </h1>
-  <p class="main__text-p">
-    Наша жизнь сейчас невозможна без электронных помощников.В нашем мире смартфоны, умные часы, навигаторы, ноутбуки,
-    планшеты и компьютеры а также телевизоры и мониторы составляют неотъемлемую часть-без который не будет ощущения
-    полноценности.
-  </p>
-  </div>
- </div>
-</div>
-</section>  
-
-<section class="descripton" id="descripton">
-<div class="container">
- <div class="description__inner"> 
-<h1 class="title">
-  О нас
-</h1>
-<p class="descripton__text">
-  Наш сервисный центр помогает в ремонте ваших электронных устройств; качественно, оперативно,с использованием
-  оригинальных запчастей и качественных аналогов, по демократичным ценам. Наши мастера обладают бесценным опытом в ремонте
-  разных устройств. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque perspiciatis, libero dolorem placeat illum ab deleniti ex, repellendus, vero sapiente velit numquam! Fugit ea eos expedita. Aspernatur dolores dolorem repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum non eveniet, minus placeat provident fugiat atque ipsam totam esse perferendis nemo! Facere minima fugiat eveniet. Nam, non aspernatur. Natus.
-  </p>
-</div>
-</div>
-</section>
-<section class="services" id="services">
-<div class="container">  
-  <h1 class="title">
-    Услуги
-  </h1>
-  <h3 class="sub__title">
-    Мы занимаемся ремонтом:
-  </h3>
-  <div class="services__inner">
-  <ul class="services__items">
-    <li class="services__item">
-      <span>
-      Смартфонов
-      </span>
-    </li>
-    <li class="services__item">
-      <span>
-    Планшетов
-    </span>
-    </li>
-    <li class="services__item">
-      <span>
-    Ноутбуков
-    </span>
-    </li>
-    <li class="services__item">
-      <span>
-    Стационарных ПК
-    </span>
-    </li>
-    <li class="services__item">
-      <span>
-    Мониторов
-    </span>
-    </li>
-    <li class="services__item">
-      <span>
-    Телевизоров
-    </span>
-    </li>
-    <li class="services__item">
-      <span>
-    Пультов управления автомобильных сигнализаций
-    </span>
-    </li>
-  </ul>
-  <img src="images/services.jpg" alt="" class="services__img">
-  </div>
+        <h1 class="title">О нас</h1>
+        <div class="about__text-description">
+            Наш сервисный центр помогает в ремонте ваших электронных устройств; качественно, оперативно,с использованием
+            оригинальных запчастей и качественных аналогов, по демократичным ценам. Наши мастера обладают бесценным опытом в ремонте
+            разных устройств. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque perspiciatis, libero dolorem placeat illum ab deleniti ex, repellendus, vero sapiente velit numquam! Fugit ea eos expedita. Aspernatur dolores dolorem repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum non eveniet, minus placeat provident fugiat atque ipsam totam esse perferendis nemo! Facere minima fugiat eveniet. Nam, non aspernatur. Natus.
+        </div>
+        <div class="about__slider">
+          <img class="about-slider__img" src="images/slider1.jpg" alt="">
+          <img class="about-slider__img" src="images/slider2.jpg" alt="">
+          <img class="about-slider__img" src="images/slider3.jpg" alt="">
+          
+        </div>
+         <div class="about__text">
+            Жизнь в современном мире невозможна без электронных помощников. Смартфоны, умные часы, навигаторы, ноутбуки,
+            планшеты и компьютеры, а также телевизоры и мониторы составляют неотъемлемую часть, без который не будет ощущения
+            полноценности.
+        </div>
+      </div> 
+  </section>
+  <section class="services" id="services">
+  <div class="container">  
+    <h1 class="title">
+        Услуги
+    </h1>
+    <h3 class="sub__title">
+        Мы занимаемся ремонтом:
+    </h3>
+    <div class="services__inner">
+      <ul class="services__items">
+        <li class="services__item">
+          <span>
+              Смартфонов
+          </span>
+        </li>
+        <li class="services__item">
+          <span>
+              Планшетов
+          </span>
+        </li>
+        <li class="services__item">
+          <span>
+              Ноутбуков
+          </span>
+        </li>
+       <li class="services__item">
+          <span>
+            Стационарных ПК
+          </span>
+        </li>
+        <li class="services__item">
+          <span>
+            Мониторов
+         </span>
+        </li>
+        <li class="services__item">
+          <span>
+            Телевизоров
+          </span>
+        </li>
+        <li class="services__item">
+          <span>
+            Пультов управления автомобильных сигнализаций
+          </span>
+        </li>
+      </ul>
+     <img src="images/services.jpg" alt="" class="services__img">
+     </div>
   </div>
 </section>
-<div class="map" id="map">
-<div class="container">
- <h1 class="title">Как нас найти</h1>
-  <img src="images/map.jpeg" alt="Карта" class="map__img">
-  <h3 class="map__suptitle">
-    Мы всегда рады вам помочь!
-  </h3>  
-</div>
-</div>
-
+<section class="faqs" id="faqs">
+  <div class="container">
+    <h2 class="title">
+        Часто задаваемые вопросы
+    </h2> 
+    <div class="faqs__wrapper">
+      <h3 class="faqs__subtitle" data-name="accordeon-title">
+        Есть ли гарантия на работу и запчасти?
+      </h3>
+      <p class="faqs__content hidden">
+        На работу и запчасти дается гарантия 14 кадендарных дней.      
+      </p>
+    </div>
+    <div class="faqs__wrapper">
+      <h3 class="faqs__subtitle" data-name="accordeon-title">
+        Сколько по времени продлится ремонт?
+      </h3>
+      <p class="faqs__content hidden">
+        Время ремонта зависит от разных факторов (например, сложности разборки/сборки устройства, наличия комплектующих), но в среднем занимает от 3 часов.
+      </p>
+    </div>
+    <div class="faqs__wrapper">
+      <h3 class="faqs__subtitle" data-name="accordeon-title">
+        Можно ли восстановить доступ к телефону если он заблокирован и я не помню пароль? 
+      </h3>
+      <p class="faqs__content hidden">
+        Да, можно. Почти на любом устройстве можно убрать пароль.
+      </p>
+     </div>
+    </div>
+  </section>
+  <div class="map" id="map">
+    <div class="container">
+        <h1 class="title">Как нас найти</h1>
+        <img src="images/map.jpeg" alt="Карта" class="map__img">
+        <h3 class="map__suptitle">
+          Мы всегда рады вам помочь!
+        </h3>  
+    </div>
+  </div>
+</main>
 <footer class="footer" id="footer">
   <div class="container">
-<div class="footer__contact">
-  <span class="footer__span footer__adr">Адрес, по которому находится наш сервис:</span>
-  <address>Тверь, Беляковский переулок, дом 20
-  </address><br>
-  <span class="footer__span footer__tel">Наш телефон для связи:</span>
-  <a class="pfone" href="tel:+79206855547">+9206855547</a><br>
-  <span class="footer__span footer__mail">Адрес электронной почты:</span>
-  <a class="email" href="mailto:Bull210@mail.ru">Bull210@mail.ru</a><br>
-  <span class="footer__span footer__teim">Режим работы:<span> Пн-Пт с 10:00 до 19:00 Сб,Вс -выходной</span></span>
-  <a href="#main" class="footer__arrow">
-    <img src="images/arrow.svg" alt="Arrow" class="arrow__img">
-  </a>
-</div>
-</div>
+    <div class="footer__contact">
+        <span class="footer__span footer__adr">Адрес, по которому находится наш сервис:</span>
+          <address>
+            Тверь, Беляковский переулок, дом 20
+          </address><br>
+       <span class="footer__span footer__tel">Наш телефон для связи:</span>
+         <a class="pfone" href="tel:+79206855547">+9206855547</a><br>
+       <span class="footer__span footer__mail">Адрес электронной почты:</span>
+          <a class="email" href="mailto:Bull210@mail.ru">Bull210@mail.ru</a><br>
+       <span class="footer__span footer__teim">Режим работы:<span> Пн-Пт с 10:00 до 19:00 Сб,Вс -выходной</span></span>
+    </div>
+  </div>
 </footer>
 <script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
